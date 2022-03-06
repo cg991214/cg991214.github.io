@@ -1,0 +1,73 @@
+@font-face {font-family: "neko-icon";
+  src: url('../fonts/nekotora.eot'); /* IE9 */
+  src: url('../fonts/nekotora.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/9022fea46788463b96c806f41f085298.woff') format('woff2'),
+  url('../fonts/nekotora.woff') format('woff'),
+  url('../fonts/nekotora.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../fonts/nekotora.svg') format('svg'); /* iOS 4.1- */
+}
+
+.neko-icon {
+  font-family: "neko-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-steam:before {
+  content: "\e602";
+}
+
+.icon-music:before {
+  content: "\e601";
+}
+
+.icon-telegram:before {
+  content: "\e65f";
+}
+
+.icon-email:before {
+  content: "\e61d";
+}
+
+.icon-douban:before {
+  content: "\e707";
+}
+
+.icon-wechat:before {
+  content: "\e6b4";
+}
+
+.icon-weibo:before {
+  content: "\e882";
+}
+
+.icon-bookmark:before {
+  content: "\e780";
+}
+
+.icon-instagram:before {
+  content: "\e6fc";
+}
+
+.icon-qq:before {
+  content: "\e746";
+}
+
+.icon-bilibili:before {
+  content: "\e75c";
+}
+
+.icon-twitter:before {
+  content: "\e9b2";
+}
+
+.icon-link:before {
+  content: "\e6c5";
+}
+
+.icon-github:before {
+  content: "\e600";
+}
+
